@@ -8,7 +8,7 @@ python PA2.py
 ```
 
 # Different modules 
-To impletement different classification modules in this program, comment and uncomment code in function addModule(). Each time uncomment one of the module to make the polt looks good. Too many modules will make the plot hard to read and understand.
+To impletement different classification modules in this program, comment and uncomment code in function addModule(). Each time uncomment one kind of the modules to make the polt looks good. Too many modules will make the plot hard to read and understand.
 ```
 # kNN (KNeighborsClassifier)
 n_nerighbors = [3,4,5,6,7]
