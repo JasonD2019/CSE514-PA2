@@ -156,7 +156,7 @@ def pred(title, models, X_train, Y_train, X_validation, Y_validation):
     plt.title(title)
     for i,j in zip(nameList,meanList):
         plt.annotate(str(format(j, '.3f')),xy=(i,j))
-    # plt.show()
+    plt.show()
     print("---------------------------")
     print(statistics.mean(meanList))
 
